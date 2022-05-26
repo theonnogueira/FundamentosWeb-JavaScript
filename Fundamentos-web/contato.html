@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> <link rel="stylesheet" href="Assets/img/css/style.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            max-width: 100%;
+            height: auto;
+        }
+        img:hover {
+            transform: scaleX(-1);
+        }
+    </style>
+</head>
+<body class="papper">
+    <i class="material-icons" style="font-size: 24px;">computer</i>
+    <ul class="menu">
+    <li>
+        <a href="index.html"> Home </a>
+    </li>
+    <li>
+        <a href="contato.html"> Contact </a>
+    </li>
+</ul>
+<h1 class="Title">Contact me</h1>
+    <div class="img">
+        <img src="Assets/img/profile-pic (4).png" alt="Photo of the creator of the page">
+    </div>
+    <div class="formulario">
+        <h2>Send a message</h2>
+        <form>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" onkeyup = 'validaNome()'>
+            <div id='txtNome'></div>
+            <br>
+            <label for="e-mail">Email:</label><br>
+            <input type="email" id="email" onkeyup='validaEmail()'>
+            <div id = 'txtEmail'></div>
+            <br>
+            <br>    
+            <label for="assunto">Subject</label><br>
+           <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaSubject()"></textarea>
+           <div id ='txtAssunto'></div>
+            <br>
+            <br>
+            <but
+        </form>
+    </div>
+    <button onclick="enviar" class="botão">Send</button>         
+    <div>
+        <h3>Address</h3>
+        <p>438 Largo da Santa Cruz</p>
+        <p>Recife-PE</p>  
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1652982889829!6m8!1m7!1sldoTz2U8vJSMULMSxk628g!2m2!1d-8.062072177962246!2d-34.88783387114876!3f16.636717420848314!4f-8.680194630646227!5f0.7820865974627469" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id='mapa'></iframe>  
+    </div>
+    <hr>
+    <div class="rodape"> 
+        <a href="https://github.com/theonnogueira" target="_blank"> <img id="tm-social" src="assets/img/github.png" alt="Logo do Github"></a>
+     <a href="https://www.linkedin.com/in/theo-nogueira/ " target="_blank" ><img id="tm-social" src="assets/img/linkedin.png" alt="Logo do LinkedIn"></a>
+     <a href="https://outlook.live.com/owa/theonnogueira/" target="_blank"> <img id="tm-social" src="assets/img/outlook.png" alt="Logo do Outlook"></a>
+      
+  </div>
+    <footer>
+        <style>
+            p {
+                text-align: center;
+            }
+        </style>
+        <p>
+          Todos os direitos reservados: Theo N Medeiros &copy; 
+        </p>
+      
+    </footer>
+   <script src="Assets/js/script.js"></script>
+</body>
+</html>

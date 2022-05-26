@@ -1,0 +1,175 @@
+/*
+Estilos da página index.html
+*/
+.center {
+        text-align:center;
+        display: flexbox;
+        flex-flow: row;
+        flex-wrap: row wrap;
+        justify-content:center;
+        align-items: center;
+        margin-bottom: 50px;
+    
+}
+
+.menu {
+        text-align:right;
+        font-size: 20px;
+        font-family: 'Cinzel', serif;
+        list-style-type:none;;
+        margin: 20px;
+        padding: 0px;   
+        border-spacing: none;  
+    }  
+    a {
+        color:#000000 ;
+        text-decoration-line:none;    
+        
+    }
+    a:hover {
+        color: #8b9e9b;
+        text-align: left;
+        
+    }
+    
+    li a {
+        display:inline-block;
+        width: 100px;
+        background-color: transparent;
+        opacity: 2.0;
+    }
+    li a.active {
+        background-color: #04AA6D;
+        color: white;
+    }
+
+    #paragrafo01 {
+        font-size: 20px;
+        text-indent: 100px;
+        text-align:center;
+        border: 10px;
+    }
+    .About {
+        text-decoration-line:overline;
+        text-align: left;
+        color: #8b9e9b;
+        font-family:'Cinzel', serif;
+        font-size: 30px;
+        text-shadow: 2px 2px;
+        margin-bottom: 50px;
+    }
+    .Subtitle {
+        text-decoration-line:none;
+        text-align:left;
+        color: #8b9e9b;
+        font-family:'Source Code Pro', monospace;;
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    .body {
+        background-color: #ffffff;
+        background-image: url("");
+    }
+    .titleparagrafo {
+        text-align: right;
+        color: #1693a5;
+        font-size: 25;
+        font-family: 'Cinzel', serif;
+        border: 20px;;
+    }
+    .Hfirst {
+        text-align: center;
+        color: #fcee8c;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .init {
+        font-size: 15px;
+        background-color:#944949;
+        margin: 30px;
+        display: block;
+    }
+
+
+
+
+                                                    /* Estilos da página contato.html */
+
+.papper {
+    background-color: white;
+}
+.Title {
+    text-align: center;
+    color: #0c0b0b;
+    font-family:'Cinzel', serif;
+    font-size: 30px;
+}
+.menu {
+        text-align:right;
+        font-size: 20px;
+        font-family: 'Cinzel', serif;
+        list-style-type:none;;
+        margin: 20px;
+        padding: 0px;   
+        border-spacing: none;    
+        
+        
+    }
+    li{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        
+    }
+    a {
+        color:#000000 ;
+        text-decoration-line:none; 
+    
+    }
+    a:hover {
+        color: #8b9e9b;
+        text-align: left;
+    }
+    li a {
+        display:inline-block;
+        width: 100px;
+        background-color: transparent;
+        opacity: 2.0;
+    }
+    li a.active {
+        background-color: #04AA6D;
+        color: white;
+    }
+    .botao {
+        background-color:#575048;
+            border-radius: 8px;
+            transition-duration: 0.4s;
+            color: white;
+            text-align: center;
+        }
+        button:hover {
+        background-color:#575048; 
+        color: #fcee8c;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.34), 0 17px 50px 0 rgba(0,0,0,0.29);
+    }
+    .rodape {
+            text-align: center;
+        }
+        #tm-social {
+            width: 25px;
+            height: 25px;
+            padding:10px;
+        }
+    .formulario {
+        text-align: center;
+    }
+    .Maps {
+        text-align: center;
+    }
+    
+
+
+
+
+
+
+/* Estilos da página contato.html */
